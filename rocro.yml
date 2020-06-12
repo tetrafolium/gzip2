@@ -1,0 +1,7 @@
+inspecode:
+  cpplint:
+    options:
+      --filter:
+        - -legal/copyright
+      --headers: h
+      --extensions: c,h
