@@ -4,5 +4,5 @@ inspecode:
       --build-cmd:
         - sudo apt-get update && sudo apt-get install -y ntp ntpdate
         - ./bootstrap
-        - env CC="sourceanalyzer -b build_id $@ gcc" CXX="sourceanalyzer -b build_id $@ g++" ./configure
-        - make
+        - ./configure
+        - cov-build $@ make
