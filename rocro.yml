@@ -1,7 +1,7 @@
 inspecode:
-  fortify:
+  coverity:
     options:
-      --build-cmd:
+      --build-cmds:
         - sudo apt-get update && sudo apt-get install -y ntp ntpdate
         - ./bootstrap
         - ./configure
