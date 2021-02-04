@@ -1,7 +1,7 @@
 inspecode:
   coverity:
     options:
-      --build-cmds:
+      --commands:
         - sudo apt-get update && sudo apt-get install -y ntp ntpdate
         - ./bootstrap
         - ./configure
